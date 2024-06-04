@@ -1,0 +1,92 @@
+.tab{
+    background-color: rgb(12 19 45);
+}
+
+
+.tab-content{
+   padding: 20px;
+    display: flex;
+    justify-content: start;
+   
+}
+
+.Tabbar{
+    width: 100%;
+    align-items: center;
+}
+.Tabs{
+    display: flex;
+   
+    align-items: center;
+   
+   
+}
+.Tabs h5{
+    color: white;
+}
+.star-icon{
+   margin-bottom: 5px;
+   font-size: 25px;
+}
+.Tabs li{
+    list-style-type: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.btn-icon{
+    margin-bottom: 3px;
+}
+.Tabs ul{
+    display: flex;
+}
+.Tabs li button{
+    border: none;
+    align-items: center;
+    padding: 5px 8px;
+    color: lightslategray;
+    transition: 0.5s;
+}
+.Tabs li button:hover{
+   color: white;
+   background-color: rgb(13, 177, 13);
+   font-weight: 400;
+}
+
+ 
+
+
+
+
+.content{
+    display: none;
+}
+.show_content{
+ display: block;
+}
+@media (max-width: 1200px) {
+    .Tabs{
+        display: flex;
+       flex-direction: column;
+        width: 50%;
+        align-items: center;
+       
+       
+    }
+
+}
+@media (max-width: 600px) {
+    .Tabs li button{
+        display: flex;
+        gap: 3px;
+        border: none;
+        align-items: center;
+        padding: 5px 8px;
+        color: lightslategray;
+     
+    }
+    .baseketball{
+        margin-left: 100px;
+    }
+}
+

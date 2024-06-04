@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.sidebar-container{
+    display:flex;
+}
+main{
+    width: 100%;
+ 
+
+}
+.sidebar{
+    background-color: #131b3e;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+    position: sticky;
+  
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+justify-content: space-around
+}
+.logo{
+    margin-top: 10px;
+    font-size: 27px;
+    font-family: "DM Sans", sans-serif;
+}
+.bars{
+    display: flex;
+    font-size: 22px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    gap: 15px;
+    transition: all 0.5s;
+    
+}
+
+
+.icon, .link_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-item {
+    margin: 0 auto;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    background-color: #0c132d6b;
+   
+}
+
+.dropdown {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+.dropdown-item {
+    padding: 5px 0;
+}
+.icon-pok{
+    font-size: 25px;
+}
+.icon-text{
+    display: flex;
+    gap: 8px;
+    font-family: "DM Sans", sans-serif;
+}
+.link_text{
+    font-size: 15px;
+}
+.icon-pok-drop{
+    font-size: 20px;
+}
+.icon-text-drop{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     padding: 5px;
+   
+}
+.icon-text-drop a{
+    text-decoration: none;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+
+}
+.total-drop{
+    background-color: #0c132d9c;
+ 
+}
+.icon-text-link{
+    display: flex;
+    gap: 10px;
+    
+}
+.menu-item-link {
+    padding: 8px;
+    display: flex;
+    justify-content: start;
+}
+.icon-pok-link{
+    font-size: 20px;
+    color: white;
+}
+.menu-item-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+
+}
+.dropicon{
+ text-align: end;
+}
+.icon-text-2 a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+.icon-text-2 .icon-pok{
+    color: lightslategray;
+    
+}
+.icon-text-2 .link_text-1{
+    color: lightslategray;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.icon-text-2 .link_text-1 span{
+    color: gold;
+}
+
+.icon-text-2 a:hover  .icon-pok   {
+    color: white;
+ 
+}
+.icon-text-2 a:hover .link_text-1   {
+    color: white;
+}
+@media (max-width: 500px) {
+    .sidebar{
+    display: none;
+      
+    }
+
+}
